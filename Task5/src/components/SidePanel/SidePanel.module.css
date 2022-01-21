@@ -1,0 +1,103 @@
+.sidePanel {
+    position: absolute;
+    align-self: flex-end;
+    padding: 0 20px;
+    width: 20%;
+    background: #121212;
+    color: white;
+    height: 100vh;
+    overflow: auto;
+    display: flex;
+    flex-direction: column;
+    animation: slide-left 0.3s ease-in both;
+}
+.sidePanel.hidden {
+    display: none;
+}
+
+.sidePanel::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sidePanel::-webkit-scrollbar-track {
+    background-color: #121212;
+}
+
+.sidePanel::-webkit-scrollbar-thumb {
+    background-color: #5A5A5A;
+    border-radius: 5px;
+}
+
+.sidePanel::-webkit-scrollbar-thumb:hover {
+    background-color: #898989;
+}
+.sidePanel button {
+    align-self: flex-end;
+    background: #121212;
+    border: none;
+    overflow: visible;
+    margin-right: 2px;
+    margin-top: 20px;
+
+}
+.sidePanel svg {
+    cursor: pointer;
+}
+
+.sidePanel svg:hover {
+    background: #3E3E3E;
+    border-radius: 50%;
+}
+
+.sidePanel-header {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.sidePanel-header button {
+    padding: 10px 35px;
+    cursor: pointer;
+    border: none;
+    border-radius: 33px;
+    color: white;
+    background: #2C3845;
+    transition: background .2s;
+    transition-timing-function: ease-in;
+}
+
+.sidePanel-header button:hover {
+    background: #242E39;
+}
+
+.sidePanel-category, .sidePanel-manufacture {
+    margin-top: 20px;
+}
+
+.sidePanel-category h3, .sidePanel-price h3, .sidePanel-manufacture h3 {
+    margin: 10px 0 10px 0;
+    border-bottom: 1px solid white;
+}
+
+.sidePanel-except {
+    margin-top: 20px;
+}
+
+.sidePanel-price label {
+    display: block;
+}
+
+.sidePanel-price input {
+    outline: none;
+    border: none;
+}
+
+@keyframes slide-left {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(0);
+    }
+}

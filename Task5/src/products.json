@@ -1,0 +1,44 @@
+ [
+    {
+        "_id": "123712371273217",
+        "price": 100,
+        "category": "T-shirt",
+        "manufacturer": "Nike",
+        "productionDate": "01.30.2022"
+    },
+    {
+        "_id": "8128318238128",
+        "price": 700,
+        "category": "Shoes",
+        "manufacturer": "Nike",
+        "productionDate": "01.12.2022"
+    },
+    {
+        "_id": "9123891293193",
+        "price": 10,
+        "category": "Socks",
+        "manufacturer": "Nike",
+        "productionDate": "01.8.2022"
+    },
+    {
+        "_id": "1283812381",
+        "price": 350,
+        "category": "Jeans",
+        "manufacturer": "Levi's",
+        "productionDate": "01.20.2022"
+    },
+    {
+        "_id": "asd12i83812381",
+        "price": 120,
+        "category": "Denim Jacket",
+        "manufacturer": "Levi's",
+        "productionDate": "11.22.2021"
+    },
+    {
+        "_id": "qweqewu712712",
+        "price": 1000,
+        "category": "TV",
+        "manufacturer": "Samsung",
+        "productionDate": "08.20.2021"
+    }
+] 
