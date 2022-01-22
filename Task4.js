@@ -1,8 +1,8 @@
 function createBem() {
     let bem = {
         block: "",
-        elements: [], //BEM object can have more than 2 "element" parts
-        modifiers: [] //BEM object can have more than 2 "modifier" parts
+        elements: [], //BEM object can have more than 1 "element" part
+        modifiers: [] //BEM object can have more than 1 "modifier" part
     };
     return {
         block: function (param) {
